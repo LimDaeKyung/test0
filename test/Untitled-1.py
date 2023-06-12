@@ -8,6 +8,8 @@ response = requests.get(URL)
 content = response.content
 soup = BeautifulSoup(content, 'html.parser')
 
+#test
+
 # 웹 페이지에서 모든 이미지 태그(<img>)를 찾기
 img_tags = soup.find_all('img')
 
